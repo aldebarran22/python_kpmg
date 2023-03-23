@@ -30,3 +30,18 @@ ape1 = "Sanz"
 nombre_completo = nombre + " " + ape1 # Concatenación
 print(nombre_completo * 4)
 
+# Conversiones de may, minus, etc.
+print('\n\n\n')
+nombre = "juan sanz gomez"
+# OJO, que NO se cambia la variable nombre. 
+print(nombre)
+print(nombre.upper())
+print(nombre.capitalize())
+print(nombre.title())
+print(nombre)
+
+# Para cambiar la variable nombre:
+nombre = nombre.title()
+print('Nombre cambiado: ', nombre)
+print('Prueba con Lower: ', "HOLA".lower())
+
