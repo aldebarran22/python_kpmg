@@ -10,5 +10,8 @@ t = fichero.partition('.')
 nombreF, _, ext = t
 
 # Listar solo los archivos de dos extensiones: csv y txt
+extensiones = ('txt','csv')
 for f  in os.listdir():
-    print(f)
+    ext = f.partition('.')[2]
+    if ext in extensiones:
+        print(f)

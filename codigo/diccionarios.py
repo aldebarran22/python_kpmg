@@ -92,3 +92,15 @@ L = [{"nombre":'Jose',"tno":60606050},
 
 print(L)
 
+
+# Más pruebas con los diccionarios:
+claves = "aeiou"
+d = dict.fromkeys(claves, 0)
+d['a']+=10
+print(d)
+
+d2 = dict.fromkeys(claves, list())
+print(d2)
+d2['a'].append(99)
+print(d2)
+
