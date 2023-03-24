@@ -28,6 +28,7 @@ def extraerColumna(texto, col):
 
     return nombres
 
+
 def calcularImportePorPais(texto, pais):
     """
     Recibe el texto y un pais y calcula el importe de los pedidos de ese pais

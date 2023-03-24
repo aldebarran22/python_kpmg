@@ -1,0 +1,3 @@
+nombre;edad;telefono
+Laura;45;907077070
+Ricardo;34;900077060

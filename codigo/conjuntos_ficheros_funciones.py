@@ -19,21 +19,18 @@ def extraerNombres(texto):
     """
     L = texto.split('\n')
     nombres = []
-    for i in L[1:]:    
-        
+    for i in L[1:]:            
         fila = i.split(';')
-
-        if fila[1] == 'Queen':
-            print()
-
-        nombres.append(fila[1])    
-        
+        nombres.append(fila[1])          
 
     return nombres
 
 #Cargar el fichero utilizando la función: "cargarFichero"
 txt = cargarFichero('Empleados.csv')
 txt2 = cargarFichero('Empleados2.csv')
+txt3 = cargarFichero('pedidos.csv')
+print(txt3)
+exit()
 
 # Extraer los nombres de cada texto con la función: "extraerNombres"
 nombres1 = extraerNombres(txt)
@@ -41,5 +38,7 @@ nombres2 = extraerNombres(txt2)
 
 print(nombres1)
 print(nombres2)
+
+
     
 
